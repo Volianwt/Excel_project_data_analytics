@@ -3,7 +3,7 @@
 
 ## Introduction
 
-As a former job seeker, I’ve always been surprised by the lack of data exploring the most optimal jobs and skills in the data science market. I set out to understand what skills top employers request and how to land more pay.
+This project was completed by following an 11-hour video tutorial from the data analytics influencer, Luke Barousse. As a comprehensive guided analysis, I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset he provided from real-world job postings, I analyzed job titles, salaries, locations, and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX, and charts, I discovered key correlations between multiple skills and higher salaries, particularly in Python, SQL, and cloud technologies.
 
 ### Questions to Analyze
 
@@ -175,7 +175,16 @@ It includes detailed information on:
 - This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
 
 ## Conclusion
+Skills I've Learned:
+By completing this project following Luke Barousse's tutorial, I not only gained a deep understanding of the data science job market but also systematically learned and reinforced a comprehensive set of powerful data analysis skills in practice:
 
-As a data enthusiast and former job seeker, I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset I've curated from real-world job postings, I analyzed job titles, salaries, locations, and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX, and charts, I discovered key correlations between multiple skills and higher salaries, particularly in Python, SQL, and cloud technologies. 
+Data Processing (Power Query): I learned how to use Power Query to execute the complete ETL (Extract, Transform, Load) process. This included extracting data from external sources (like Excel), transforming and "cleaning" the raw data by changing data types, removing irrelevant columns, cleaning text, and trimming whitespace, and finally loading it into Excel for analysis.
+
+Data Modeling (Power Pivot): I mastered the core techniques of creating a data model using Power Pivot. I learned how to integrate multiple data tables (like data_jobs_all and data_jobs_skills) and establish relationships between them using a common key (like job_id), creating a unified data view for analysis.
+
+Data Analysis & Calculation (PivotTables & DAX): I became proficient in using PivotTables to quickly summarize and slice data. More importantly, I learned to use the DAX (Data Analysis Expressions) language to create custom "measures." This included calculating the median salary (MEDIAN) and using the CALCULATE function to perform complex, dynamic calculations under specific conditions (like filtering for a specific country).
+
+Data Visualization (PivotCharts): I learned how to use PivotCharts to transform analytical findings into impactful visual stories. Specifically, I practiced creating combination charts (like column and line charts), setting up primary and secondary axes, and customizing chart elements (like titles and markers) to clearly convey insights.
+
 
 I hope this project serves as a practical guide for data professionals and provides an overview of the skills needed for higher-paying roles.
